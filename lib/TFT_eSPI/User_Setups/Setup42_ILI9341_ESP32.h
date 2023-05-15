@@ -26,11 +26,11 @@
 // TFT SPI clock frequency
 // #define SPI_FREQUENCY  20000000
 // #define SPI_FREQUENCY  27000000
-#define SPI_FREQUENCY  40000000
-// #define SPI_FREQUENCY  80000000
+// #define SPI_FREQUENCY  40000000
+#define SPI_FREQUENCY  80000000
 
 // Optional reduced SPI frequency for reading TFT
-#define SPI_READ_FREQUENCY  16000000
+#define SPI_READ_FREQUENCY  40000000
 
 // SPI clock frequency for touch controller
 #define SPI_TOUCH_FREQUENCY  2500000
