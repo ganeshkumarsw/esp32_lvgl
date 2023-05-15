@@ -77,12 +77,11 @@ void setup()
     lv_indev_drv_register(&indev_drv);
 
     lv_obj_t *btn = lv_btn_create(lv_scr_act(), NULL);
-    lv_style_init
     lv_obj_align(btn, NULL, LV_ALIGN_CENTER, 0, 0);
 
         /* Create simple label */
     lv_obj_t *label = lv_label_create(btn, NULL);
-    lv_label_set_text(label, "Hello");
+    lv_label_set_text(label, "Hello World");
     lv_obj_align(label, btn, LV_ALIGN_CENTER, 0, 0);
 }
 
